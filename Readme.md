@@ -69,9 +69,6 @@ mkdir "nome da pasta"
 # Aqui vamo acessar a pasta que acabamos de criar
 cd (Nome da pasta criada)
 
-# Aqui vamos vincular/referenciar um repositório local a um repositório remoto
-git remote add origin (link do repositório do github)
-
 # Iniciando um repositório
 git init
 
@@ -86,6 +83,15 @@ git add .
 
 # Aqui estamos commitando e preparando os arquivos para upload
 git commit -m “Título do arquivo”
+
+# Aqui vamos trocar o nome de Master para Main
+git branch -M main
+
+# Aqui vamos vincular/referenciar um repositório local a um repositório remoto
+git remote add origin (link do repositório do github)
+
+# Empurrando o arquivo local para o repositório remoto - (Esse o GitHub mostra);
+git push -u origin main
 
 - No momento do **Merge** local:
 
