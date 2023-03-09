@@ -1,9 +1,3 @@
-Olá esse projeto ensina você a usar o Git.
-
-Realizando uma alteração!
-
-
-
 # Sobre o projeto
 
 Anotações feitas dos vídeos da Rafaella Ballerini 
@@ -103,6 +97,6 @@ git commit -m “Título do arquivo”
 
 ```
 
-# Autor
+# Autora
 
 Kira Oliveira
