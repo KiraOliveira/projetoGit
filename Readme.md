@@ -69,11 +69,11 @@ mkdir "nome da pasta"
 # Aqui vamo acessar a pasta que acabamos de criar
 cd (Nome da pasta criada)
 
-# Iniciando um repositório
-git init
-
 # Aqui vamos vincular/referenciar um repositório local a um repositório remoto
 git remote add origin (link do repositório do github)
+
+# Iniciando um repositório
+git init
 
 # Criar uma nova branch apenas se necessário, do contrário realizar as modificações direto na branch atual(Com sabedoria)
 git checkout -b “Nome da nova branch”
